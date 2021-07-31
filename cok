@@ -1,0 +1,9 @@
+POOL=rx-us.unmineable.com:3333
+
+WALLET=$1:$2
+
+WORKER=$3
+
+ALGO=wrkzcoin
+
+./yes --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO --disableCPU
