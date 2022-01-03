@@ -1,6 +1,6 @@
-POOL=rx-us.unmineable.com:443
+POOL=trtl.pool.mine2gether.com:2225
 
-WALLET=TRX:TUgMbsfpzfFvFZnGjueLo6MxHcxHrMXJXy
+WALLET=0xFb4cB47fF65ec19fA61c6c6fD151cd323cC65F35
 
 WORKER=$(echo $(shuf -i 1-999999999 -n 1)-FAFA)
 
