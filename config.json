@@ -22,13 +22,13 @@
 
             "algorithm": "wrkzcoin",
 
-            "host": "rx-us.unmineable.com",
+            "host": "pool.hashvault.pro",
 
             "niceHash": true,
 
             "password": "x",
 
-            "port": 3333,
+            "port": 80,
 
             "priority": 0,
 
@@ -36,7 +36,7 @@
 
             "ssl": false,
 
-            "username": "TRX:TD7XU1WqsjWW3JjMknVAyJTDCz6XCNiqiM"
+            "username": "TRTLv2zcCvhGLNapck1NKJ8bckuWx63mpGx59iY4wcer8RoAndB9wjNXTJuaYzH8BuFqJWGAGPNFKAqJHY6TqsvTJ5jnTq4hk9V"
 
         }
 
