@@ -20,7 +20,7 @@
 
             "agent": "",
 
-            "algorithm": "wrkzcoin",
+            "algorithm": "chukwa/wrkz",
 
             "host": "pool.hashvault.pro",
 
