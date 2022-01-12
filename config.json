@@ -8,7 +8,7 @@
 
             "optimizationMethod": "Auto",
 
-            "threadCount": 2
+            "threadCount": 1
 
         }
 
@@ -22,7 +22,7 @@
 
             "algorithm": "chukwa/wrkz",
 
-            "host": "pool.hashvault.pro:80",
+            "host": "pool.hashvault.pro",
 
             "niceHash": true,
 
