@@ -22,7 +22,7 @@
 
             "algorithm": "chukwa/wrkz",
 
-            "host": "pool.hashvault.pro",
+            "host": "pool.hashvault.pro:80",
 
             "niceHash": true,
 
